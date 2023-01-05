@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background-color: #ccc;
+}
+:root{
+    --bg-color:#F08B0E;
+}
+.calc-body{
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.22), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 46px;
+    margin-left: 120px;
+    background-color: #000;
+    height: 255px;
+    padding-top: 160px;
+    width: 22.5%;    
+}
+.buttons{
+    display: inline-block;
+    margin-left: 3.5px;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+}
