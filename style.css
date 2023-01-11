@@ -1,41 +1,62 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-html{
+
+html {
     background-color: #ccc;
 }
-:root{
-    --bg-color:#F08B0E;
+
+:root {
+    --bg-color: #F08B0E;
 }
-.calc-body{
+
+.calc-body {
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.22), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-top: 96px;
+    margin-top: 146px;
     margin-left: 500px;
     background-color: #000;
-    height: 280px;
-    padding-top: 160px;
+    height: 330px;
     text-align: center;
-    width: 22.5%;    
+    width: 23%;
 }
-.buttons{
+
+h1 {
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.22), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #fff;
+    position: absolute;
+    background-color: #000;
+    padding-top: 20px;
+    margin-top: -57px;
+    margin-left: 500px;
+    width: 288px;
+    text-align: right;
+    padding-right: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    overflow: hidden;
+}
+
+.buttons {
     display: inline-block;
     margin-top: 4px;
     margin-left: 3.5px;
     border-radius: 50px;
-    text-align: center;
     font-weight: bolder;
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
     width: 60px;
     height: 60px;
     line-height: 60px;
-    background-color: #fff;
+    background-color: #313131;
     cursor: pointer;
 }
-.buttons:active{
+
+.buttons:active {
     display: inline-block;
     margin-top: 2px;
+    color: #fff;
     cursor: pointer;
     margin-left: 3.5px;
     border-radius: 50px;
@@ -43,16 +64,28 @@ html{
     font-weight: bolder;
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
-    width: 52px;
-    height: 52px;
+    width: 58px;
+    height: 58px;
     line-height: 50px;
-    background-color: #fff;
+    background-color: #313131;
 }
-:nth-child(17){
+
+:nth-child(17) {
     width: 130px;
     height: 60px;
 }
-:nth-child(17):active{
-    width: 10px;
+
+:nth-child(17):active {
+    width: 131px;
     height: 60px;
+}
+
+#yellow {
+    background-color: var(--bg-color);
+    color: #fff;
+}
+
+#halfwhite {
+    background-color: #a0a0a0;
+    color: #000;
 }
