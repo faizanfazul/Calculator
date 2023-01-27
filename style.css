@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
 }
-
 html {
     background-color: #ccc;
 }
@@ -11,7 +10,7 @@ html {
     --bg-color: #F08B0E;
 }
 
-.calc-body {
+.calculator{
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.22), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 146px;
     margin-left: 500px;
@@ -80,12 +79,12 @@ h1 {
     height: 60px;
 }
 
-#yellow {
+#equal,#divide,#multiply,#plus,#minus {
     background-color: var(--bg-color);
     color: #fff;
 }
 
-#halfwhite {
+#modulus,#one-digit,#clear {
     background-color: #a0a0a0;
     color: #000;
 }
