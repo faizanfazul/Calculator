@@ -1,90 +1,102 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 html {
-    background-color: #ccc;
+  background-color: #ccc;
 }
 
 :root {
-    --bg-color: #F08B0E;
+  --bg-color: #f08b0e;
 }
 
-.calculator{
-    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.22), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-top: 146px;
-    margin-left: 500px;
-    background-color: #000;
-    height: 330px;
-    text-align: center;
-    width: 23%;
+.calculator {
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.22), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 146px;
+  margin-left: 500px;
+  background-color: #000;
+  height: 330px;
+  text-align: center;
+  width: 23%;
 }
 
 h1 {
-    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.22), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    color: #fff;
-    position: absolute;
-    background-color: #000;
-    padding-top: 20px;
-    margin-top: -57px;
-    margin-left: 500px;
-    width: 288px;
-    text-align: right;
-    padding-right: 6px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 300;
-    overflow: hidden;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.22), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #fff;
+  position: absolute;
+  height: 37px;
+  background-color: #000;
+  padding-top: 20px;
+  margin-top: -57px;
+  margin-left: 500px;
+  width: 288px;
+  text-align: right;
+  padding-right: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  overflow: hidden;
 }
 
+/* .center{
+    text-align: center;
+    
+} */
+
 .buttons {
-    display: inline-block;
-    margin-top: 4px;
-    margin-left: 3.5px;
-    border-radius: 50px;
-    font-weight: bolder;
-    font-size: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    background-color: #313131;
-    cursor: pointer;
+  display: inline-block;
+  margin-top: 4px;
+  margin-left: 3.5px;
+  border-radius: 50px;
+  font-weight: bolder;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #313131;
+  cursor: pointer;
 }
 
 .buttons:active {
-    display: inline-block;
-    margin-top: 2px;
-    color: #fff;
-    cursor: pointer;
-    margin-left: 3.5px;
-    border-radius: 50px;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 58px;
-    height: 58px;
-    line-height: 50px;
-    background-color: #313131;
+  display: inline-block;
+  margin-top: 2px;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 3.5px;
+  border-radius: 50px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 58px;
+  height: 58px;
+  line-height: 50px;
+  background-color: #313131;
 }
 
 :nth-child(17) {
-    width: 130px;
-    height: 60px;
+  width: 130px;
+  height: 60px;
 }
 
 :nth-child(17):active {
-    width: 131px;
-    height: 60px;
+  width: 131px;
+  height: 60px;
 }
 
-#equal,#divide,#multiply,#plus,#minus {
-    background-color: var(--bg-color);
-    color: #fff;
+#equal,
+#divide,
+#multiply,
+#plus,
+#minus {
+  background-color: var(--bg-color);
+  color: #fff;
 }
 
-#modulus,#one-digit,#clear {
-    background-color: #a0a0a0;
-    color: #000;
+#modulus,
+#one-digit,
+#clear {
+  background-color: #a0a0a0;
+  color: #000;
 }
