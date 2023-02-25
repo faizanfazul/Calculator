@@ -27,3 +27,7 @@ btn.forEach((button) =>
     calculate(button);
   })
 );
+
+document.addEventListener("selectstart",(e)=>{
+  e.preventDefault();
+})
