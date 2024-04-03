@@ -2,40 +2,43 @@
   padding: 0;
   margin: 0;
 }
+
 html {
   background-color: #ccc;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-:root {
-  --bg-color: #f08b0e;
-}
-
-.pusher{
-  margin-top: 80px;
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .calculator {
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.22), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 0 auto;
   background-color: #000;
-  height: 32.23%;
   text-align: center;
-  width: 23%;
-  padding-bottom: 10px;
+  width: 320px;
+  padding: 10px;
+  /* border-radius: 20px; */
 }
 
-h1 {
-  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.22), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.wrapper {
+  border: 1px solid red;
+}
+
+#output {
+  border: 1px solid red;
   color: #fff;
-  background-color: #000;
-  padding-top: 20px;
-  margin: 0 auto;
-  height: 40px;
-  width: 22.5%;
+  /* padding-top: 20px;
+  line-height: 20px; */
+  height: 60px;
+  width: 100%;
+  box-sizing: border-box;
   text-align: right;
-  padding-right: 6px;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 300;
+  font-size: 2em;
   overflow: hidden;
 }
 
@@ -46,61 +49,50 @@ h1 {
   border-radius: 50px;
   font-weight: bolder;
   font-size: 1.5em;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #fff;
   width: 20%;
   height: 20%;
   line-height: 60px;
-  background-color: #313131;
   cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .buttons:active {
   display: inline-block;
   margin-top: 2px;
-  color: #fff;
   cursor: pointer;
   margin-left: 3.5px;
   border-radius: 50px;
   text-align: center;
   font-weight: bolder;
   font-size: 1.5em;
-  font-family: Arial, Helvetica, sans-serif;
   width: 20%;
   height: 20%;
   line-height: 56px;
-  background-color: #313131;
 }
 
-:nth-child(17) {
-  width: 43%;
+svg {
+  margin: 0;
+  padding: 0;
+  width: 40px;
+  position: relative;
+  top: 10px;
+  right: 2px;
 }
 
-:nth-child(17):active {
-  width: 43.2%;
-}
-
-#equal,
-#divide,
-#multiply,
-#plus,
-#minus {
-  background-color: var(--bg-color);
+.calculations div {
+  background-color: #f08b0e;
   color: #fff;
 }
 
-#modulus,
-#one-digit,
-#clear {
+.actions div {
   background-color: #a0a0a0;
   color: #000;
 }
 
-@media only screen and (max-width: 600px) {
-  .calculator{
-        width: 96%;
-  }
-  h1{
-    width: 94.5%;
-  }
+.numbers div {
+  background-color: #313131;
+  color: #fff;
 }
